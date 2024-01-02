@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Colorful Social Media Dashboard</title>
+</head>
+<body>
+    <div id="loginPage">
+        <h2>Login</h2>
+        <button id="loginBtn">Log In</button>
+    </div>
+
+    <div id="dashboard" class="hidden">
+        <div id="userProfile">
+            <img id="userAvatar" src="https://placekitten.com/40/40" alt="User Avatar">
+            <span id="username">User123</span>
+            <button id="logoutBtn">Log Out</button>
+        </div>
+        <div id="postForm">
+            <textarea id="postInput" placeholder="What's on your mind?"></textarea>
+            <button id="postBtn">Post</button>
+        </div>
+        <div id="searchBar">
+            <input type="text" id="searchInput" placeholder="Search">
+            <button id="searchBtn">Search</button>
+        </div>
+        <div id="messageBar">
+            <span id="messageText">Welcome to the Colorful Dashboard!</span>
+        </div>
+        <div id="postFeed">
+            <!-- Example posts will be dynamically generated here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
